@@ -7,7 +7,7 @@ function drawPlayer(player) {
     ellipse(player.x, player.y, player.size*1.3, player.size);
 }
 
-function drawAllAsteroid(){
+function drawAllAsteroids(){
     for(let asteroid of asteroidArray){
         // Draw ablue circle for the asteroid.
         fill("blue");

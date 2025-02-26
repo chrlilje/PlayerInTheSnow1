@@ -24,7 +24,7 @@ function draw() {
   movePlayer(player2);
 
   // Call the function to draw all the asteroids.
-  drawAllAsteroid();
+  drawAllAsteroids();
   // Move all the asteroids.
   for(let asteroid of asteroidArray){
     asteroid.move();
