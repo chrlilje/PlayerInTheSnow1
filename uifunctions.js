@@ -1,15 +1,15 @@
 // Make a p5.js function that moves the palyer with wasd keys
 function movePlayer(player){
-    if (keyIsDown(87)){
+    if (keyIsDown(player.moveup)){
         player.y -= 1;
     }
-    if (keyIsDown(83)){
+    if (keyIsDown(player.movedown)){
         player.y += 1;
     }
-    if (keyIsDown(65)){
+    if (keyIsDown(player.moveleft)){
         player.x -= 1;
     }
-    if (keyIsDown(68)){
+    if (keyIsDown(player.moveright)){
         player.x += 1;
     }
 }
