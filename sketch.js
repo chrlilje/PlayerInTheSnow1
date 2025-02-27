@@ -19,7 +19,7 @@ function draw() {
   // Call the function to draw the player.
   drawPlayer(player1);
   drawPlayer(player2);
-  // Call the function to move the player.
+  // Call the function to test if keyboard is press and move the player.
   movePlayer(player1);
   movePlayer(player2);
 

@@ -13,3 +13,8 @@ function movePlayer(player){
         player.x += 1;
     }
 }
+
+// If the mouse is pressed make a new asteroid at the mouse position.
+function mousePressed(){
+    makeNewAsteroid(mouseX, mouseY);
+}
